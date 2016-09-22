@@ -1,10 +1,10 @@
 html {
   cursor: none;
-  overflow: hidden;
+  overflow:hidden;
 }
 
-::-webkit-scrollbar {
-  display: none;
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 body {
@@ -26,11 +26,11 @@ body {
  */
 
 .dimmed {
-  color: #666;
+  color: #999;
 }
 
 .normal {
-  color: #999;
+  color: #FFF;
 }
 
 .bright {
