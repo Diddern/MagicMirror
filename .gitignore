@@ -12,6 +12,7 @@ coverage
 .lock-wscript
 build/Release
 node_modules
+
 jspm_modules
 .npm
 .node_repl_history
@@ -52,6 +53,7 @@ Temporary Items
 .Trash-*
 
 # Various Magic Mirror ignoramuses and anti-ignoramuses.
+config
 
 # Don't ignore the node_helper nore module.
 !/modules/node_helper
