@@ -103,18 +103,18 @@ Module.register("weatherforecast",{
 
 		if (this.config.appid === "") {
 			wrapper.innerHTML = "Please set the correct openweather <i>appid</i> in the config for module: " + this.name + ".";
-			wrapper.className = "dimmed light small";
+			wrapper.className = "dimmed light medium";
 			return wrapper;
 		}
 
 		if (!this.loaded) {
 			wrapper.innerHTML = this.translate("LOADING");
-			wrapper.className = "dimmed light small";
+			wrapper.className = "dimmed light medium";
 			return wrapper;
 		}
 
 		var table = document.createElement("table");
-		table.className = "small";
+		table.className = "medium";
 
 		for (var f in this.forecast) {
 			var forecast = this.forecast[f];

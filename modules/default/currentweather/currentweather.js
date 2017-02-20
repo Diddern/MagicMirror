@@ -108,7 +108,7 @@ Module.register("currentweather",{
 	addExtraInfoWeather: function(wrapper) {
 
 		var small = document.createElement("div");
-		small.className = "normal medium";
+		small.className = "normal large";
 
 
 		var windIcon = document.createElement("span");
@@ -161,13 +161,13 @@ Module.register("currentweather",{
 
 		if (this.config.appid === "") {
 			wrapper.innerHTML = "Please set the correct openweather <i>appid</i> in the config for module: " + this.name + ".";
-			wrapper.className = "dimmed light small";
+			wrapper.className = "dimmed light medium";
 			return wrapper;
 		}
 
 		if (!this.loaded) {
 			wrapper.innerHTML = this.translate("LOADING");
-			wrapper.className = "dimmed light small";
+			wrapper.className = "dimmed light medium";
 			return wrapper;
 		}
 
