@@ -1,3 +1,9 @@
 [submodule "modules/DailyXKCD"]
 	path = modules/DailyXKCD
 	url = https://github.com/Diddern/DailyXKCD.git
+[submodule "modules/MMM-YrNow"]
+	path = modules/MMM-YrNow
+	url = https://github.com/nrkno/MMM-YrNow.git
+[submodule "modules/MMM-iFrameReload"]
+	path = modules/MMM-iFrameReload
+	url = https://github.com/TheBogueRat/MMM-iFrameReload
